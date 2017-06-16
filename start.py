@@ -9,6 +9,5 @@ else:
     kernel.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
     kernel.saveBrain("bot_brain.brn")
 
-# kernel now ready for use
 while True:
     print (kernel.respond(input("Enter your message: ")))
